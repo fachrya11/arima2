@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template, jsonify
+import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
@@ -36,5 +36,3 @@ def predict():
     except Exception as e:
         return jsonify({'error': str(e)})
 
-if __name__ == '__main__':
-    app.run(debug=True)
