@@ -4,7 +4,6 @@ import numpy as np
 import pickle
 from datetime import datetime, timedelta
 
-app = Flask(__name__)
 
 # Load the trained ARIMA model
 with open('model/arima_model.pkl', 'rb') as file:
