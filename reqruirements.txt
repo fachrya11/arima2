@@ -5,4 +5,5 @@ matplotlib
 seaborn
 statsmodels
 scikit-learn
+streamlit
 pip==24.1.2
