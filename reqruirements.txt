@@ -6,3 +6,4 @@ statsmodels
 scikit-learn
 pip==24.1.2
 statsmodels
+pickle
